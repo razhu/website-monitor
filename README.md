@@ -43,3 +43,11 @@ A desktop application built with Electron and Puppeteer to monitor changes on sp
 ```bash
    npm test
 ```
+
+5. **Demo**
+
+Watch the application in action:
+
+[Download the demo video](https://github.com/razhu/website-monitor/tree/main/docs/video.mov)
+
+The video file may be large (20+MB), so downloading might take some time.
