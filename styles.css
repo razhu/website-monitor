@@ -1,0 +1,240 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and center the content */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 20px;
+}
+
+/* Style the heading */
+h1 {
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+/* Style the input fields and button container */
+div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  max-width: 100%;
+}
+
+/* Style the buttons */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style the URL list */
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 300px;
+  max-width: 100%;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Style the remove button */
+li .remove-btn {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e57373;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: color 0.3s;
+}
+
+li .remove-btn:hover {
+  color: #d32f2f;
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Style the results section */
+#results {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 300px;
+  max-width: 100%;
+}
+
+/* Style for the modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+}
+
+.link-button:hover {
+  background-color: #45a049;
+}
+/* Existing styles... */
+
+/* Style for the top-right container */
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Style for the configuration icon */
+#openSettings {
+  font-size: 24px;
+  color: #4caf50;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#openSettings:hover {
+  color: #45a049;
+}
+
+/* Style for the modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* New style for link-button to make it look like a button */
+.link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+}
+
+.link-button:hover {
+  background-color: #45a049;
+}

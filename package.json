@@ -1,0 +1,20 @@
+{
+  "name": "website-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^31.3.1",
+    "puppeteer": "^22.15.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

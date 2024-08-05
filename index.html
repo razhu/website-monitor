@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Monitor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="top-right">
+      <i
+        id="openSettings"
+        class="fas fa-cog"
+        alt="Configuration"
+        title="Configuration"
+      ></i>
+    </div>
+    <h1>Website Monitor</h1>
+    <h5>by Ramiro Huayller</h5>
+    <br />
+    <div>
+      <input type="text" id="url" placeholder="Enter URL" />
+      <input type="number" id="interval" placeholder="Interval (minutes)" />
+      <button id="addUrl">Add URL</button>
+    </div>
+    <ul id="urlList"></ul>
+    <div id="results"></div>
+
+    <!-- Notification Settings Modal -->
+    <div id="settingsModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Notification Settings</h2>
+        <select id="notificationType">
+          <option value="desktop">Desktop Notification</option>
+          <option value="email">Email Notification</option>
+        </select>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter Email (for email notification)"
+        />
+        <a href="#" id="saveSettings" class="link-button">Save Settings</a>
+      </div>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
