@@ -51,3 +51,4 @@ Watch the application in action:
 [Download the demo video](https://github.com/razhu/website-monitor/tree/main/docs/video.mov)
 
 The video file may be large (20+MB), so downloading might take some time. Use a video player like VLC.
+Alternatively, you can watch it here: https://drive.google.com/file/d/1HSCwsmZcmAzMrBYc7NxSt0YJrJjiDt32/view
