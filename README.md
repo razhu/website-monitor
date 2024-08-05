@@ -1,6 +1,6 @@
 # Website Monitor
 
-A desktop application built with Electron to monitor changes on specified websites. The app allows users to track changes, configure notifications, and save settings for persistence between restarts.
+A desktop application built with Electron and Puppeteer to monitor changes on specified websites. The app allows users to track changes, configure notifications, and save settings for persistence between restarts.
 
 ## Features
 
@@ -21,7 +21,7 @@ A desktop application built with Electron to monitor changes on specified websit
 1. **Clone the Repository**
 
 ```bash
-   git clone https://github.com/yourusername/website-monitor.git
+   git clone git@github.com:razhu/website-monitor.git
    cd website-monitor
 ```
 
